@@ -1,7 +1,6 @@
 import os
 import sys
 import string
-from itertools import zip_longest
 
 # Read input file to fatsas
 file = open(os.path.join(os.path.dirname(sys.argv[0]), 'rosalind_lcsm.txt'))
