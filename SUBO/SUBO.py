@@ -7,7 +7,7 @@ from Bio import pairwise2
 from Bio.pairwise2 import format_alignment
 from Bio import Entrez
 
-file = open(os.path.join(os.path.dirname(sys.argv[0]), 'rosalind_need.txt'))
+file = open(os.path.join(os.path.dirname(sys.argv[0]), 'rosalind_subo.txt'))
 vars = file.read()
 id1 = vars.split(' ')[0]
 id2 = vars.split(' ')[1]
