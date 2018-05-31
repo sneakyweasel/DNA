@@ -37,6 +37,9 @@ https://en.wikipedia.org/wiki/Mitochondrion
 # KEGG pathways
 - KEGG pathways are fascinating.
 
+# Point mutations
+Because transversions require a more drastic change to the base's chemical structure, they are less common than transitions. Across the entire genome, the ratio of transitions to transversions is on average about 2. However, in coding regions, this ratio is typically higher (often exceeding 3) because a transition appearing in coding regions happens to be less likely to change the encoded amino acid, particularly when the substituted base is the third member of a codon (feel free to verify this fact using the DNA codon table). Such a substitution, in which the organism's protein makeup is unaffected, is known as a silent substitution.
+
 # Transposons (Nobel83)
 - Different regions of the genome evolve in different ways. In coding regions, where any significant change can be lethal to the organism, the most common source of variation is point mutations. In non-coding regions (introns or intergenic spacers), we find a different situation: entire intervals can easily be duplicated, inserted, deleted, or reversed.
 - Transposons are jumping genes in non-coding DNA
