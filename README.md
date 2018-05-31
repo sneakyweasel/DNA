@@ -19,6 +19,10 @@ Will add some notes on what I found interesting while discovering the field.
 # Deeply studied organism
 - E.coli bacteria: http://ecoliwiki.net
 - C.elegans worm: http://www.wormbook.org/
+- Virii: https://viralzone.expasy.org/
+
+# Multiple reading frames
+- The usage of multiple reading frames leads to the possibility of overlapping genes; there may be many of these in virus, prokaryote, and mitochondrial genomes.[7] Some viruses, e.g. Hepatitis B virus and BYDV, use several overlapping genes in different reading frames.
 
 # DNA Methylation
 https://en.wikipedia.org/wiki/DNA_methylation
