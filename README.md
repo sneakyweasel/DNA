@@ -9,6 +9,13 @@ Will add some notes on what I found interesting while discovering the field.
 - Biopython library
 - requests library
 
+# Links
+- http://www.bioinformatics.babraham.ac.uk/projects/download.html
+- MEME suite http://meme-suite.org/index.html
+- ORF Finder http://www.bioinformatics.org/sms2/orf_find.html
+- EMBOSS http://emboss.sourceforge.net/what/
+- LALIGN https://www.ebi.ac.uk/Tools/psa/lalign/
+
 # Deeply studied organism
 - E.coli bacteria: http://ecoliwiki.net
 - C.elegans worm: http://www.wormbook.org/
@@ -22,6 +29,10 @@ https://en.wikipedia.org/wiki/DNA_methylation
 
 # Mitochrondria
 https://en.wikipedia.org/wiki/Mitochondrion
+
+# Synteny Blocks
+- Synteny blocks appear close to coding blocks or functions.
+- Synteny blocks are very similar areas of two species genomes that have been flipped and moved around by rearrangements.
 
 # KEGG pathways
 - KEGG pathways are fascinating.
