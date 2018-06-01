@@ -49,3 +49,6 @@ Because transversions require a more drastic change to the base's chemical struc
 - Transposons are jumping genes in non-coding DNA
 - Mobility of "variables" non-coding transposons
 - Inter specie transposons is fascinating. https://en.wikipedia.org/wiki/Tn10
+
+# Observations
+- Controlled environment in the scientific method destroy the ecosystem complexity.
