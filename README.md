@@ -33,6 +33,10 @@ Will add some notes on what I found interesting while discovering the field.
 - Ring
 - Isochromosome
 
+# Acidic / basic blood buffer system
+- Equilibrium relations can smoothen pH variations to a stable level.
+- Acts a an int(pH).
+
 # DNA Methylation
 https://en.wikipedia.org/wiki/DNA_methylation
 - C & A can be methylated.
