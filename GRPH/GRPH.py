@@ -3,20 +3,15 @@ import sys
 import string
 import itertools
 from graphviz import Digraph
+from Bio import SeqIO
+from Bio.Alphabet import IUPAC
 
-# Read input file to fatsas
+# Read input file to seqs
 file = open(os.path.join(os.path.dirname(sys.argv[0]), 'rosalind_grph.txt'))
-lines = [line.rstrip('\n') for line in file]
-blob = ''.join(lines)
-raw = blob.split('>')
-raw.pop(0)
-fatsas = []
-for x in range(0, len(raw), 1):
-    id     = raw[x][0:13]
-    strand = raw[x][13:]
-    fatsas.append([id, strand])
-print(f"Strands: {fatsas}")
+records = list(SeqIO.parse(file, "fasta"))
+k = 3
 
+# Longest common subsequence
 def lcs(a, b):
     lengths = [[0 for j in range(len(b)+1)] for i in range(len(a)+1)]
     # row 0 and column 0 are initialized to 0 already
@@ -41,17 +36,41 @@ def lcs(a, b):
             y -= 1
     return result
 
-#
-def create_edges(fatsas):
+# Suffix and prefix lcs
+def fix(a, b):
+    result = []
+    for x in range(0, len(a)):
+        prefix_a = a[:x]
+        suffix_a = a[-x:]
+        prefix_b = b[:x]
+        suffix_b = b[-x:]
+        # print(f"X: {x} - PreA: {prefix_a} | SufB: {suffix_b}")
+        if prefix_a == suffix_b:
+            result.append(prefix_a)
+        if prefix_b == suffix_a:
+            result.append(prefix_b)
 
+    if len(sorted(result)) > 0:
+        return sorted(result)[-1]
+    else:
+        return ""
 
-# Create a digraph
+# Create directed graph
 f = Digraph('finite_state_machine', filename='fsm.gv')
 f.attr(rankdir='LR', size='8,5')
 f.attr('node', shape='doublecircle')
-for fatsa in fatsas:
-    f.node(fatsa[0])
 
-
-f.edge('LR_8', 'LR_5', label='S(a)')
+for pair in itertools.permutations(records, 2):
+    sub = fix(pair[0].seq, pair[1].seq)
+    if len(sub) >= 3:
+        f.edge(pair[0].id, pair[1].id, label=str(sub))
+        print(f"{pair[0].id} {pair[1].id}")
 f.view()
+
+
+
+# AAATAAA           (0498)
+#     AAATCCC       (0442)
+#     AAATTTT       (2391)
+#        TTTTCCC    (2323)
+# GGGTGGG           (5013)

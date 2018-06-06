@@ -21,6 +21,16 @@ Will add some notes on what I found interesting while discovering the field.
 - C.elegans worm: http://www.wormbook.org/
 - Virii: https://viralzone.expasy.org/
 
+# other RNAs
+- Some types of non-coding RNAs (RNAs that do not encode proteins) help regulate the expression of other genes. Such RNAs may be called regulatory RNAs. For example, microRNAs (miRNAs) and small interfering RNAs siRNAs are small regulatory RNA molecules about 22 nucleotides long. They bind to specific mRNA molecules (with partly or fully complementary sequences) and reduce their stability or interfere with their translation, providing a way for the cell to decrease or fine-tune levels of these mRNAs.
+- These are just some examples out of many types of noncoding and regulatory RNAs. Scientists are still discovering new varieties of noncoding RNA.
+- Other kinds of regulatory RNA, such as long non-coding RNA (lncRNA) and piwi-interacting RNA (piRNA), have also been discovered, but their functions are not as well understood. There's growing evidence that miRNAs and other small, non-coding RNAs are involved in certain human diseases, including some genetic diseases and cancers. In addition, researchers are developing artificial microRNAs as therapeutic tools to treat human diseases.
+These are just a few examples of regulatory RNAs. There are many others, and more continue to be discovered over time.
+https://en.wikipedia.org/wiki/Piwi-interacting_RNA
+https://en.wikipedia.org/wiki/RasiRNA
+Lien avec la grammaire du vivant Splice:
+https://fr.wikipedia.org/wiki/G%C3%A8ne_Hox
+
 # Multiple reading frames
 - The usage of multiple reading frames leads to the possibility of overlapping genes; there may be many of these in virus, prokaryote, and mitochondrial genomes.[7] Some viruses, e.g. Hepatitis B virus and BYDV, use several overlapping genes in different reading frames.
 
