@@ -28,8 +28,16 @@ Will add some notes on what I found interesting while discovering the field.
 These are just a few examples of regulatory RNAs. There are many others, and more continue to be discovered over time.
 https://en.wikipedia.org/wiki/Piwi-interacting_RNA
 https://en.wikipedia.org/wiki/RasiRNA
-Lien avec la grammaire du vivant Splice:
+
+# HEX|HOX grammaire du vivant
+- Les genes HOX sont liés avec la polydactylie et visiblement les infos de croissance.
+- L'inversion des HOX de la drosophile provoque la poussée de pattes à la place des antennes.
+- Lien avec la grammaire du vivant "Splice"
+- Les tardigrades ont des spécificités HOX
 https://fr.wikipedia.org/wiki/G%C3%A8ne_Hox
+
+# Luciferase
+https://en.wikipedia.org/wiki/Luciferase
 
 # Multiple reading frames
 - The usage of multiple reading frames leads to the possibility of overlapping genes; there may be many of these in virus, prokaryote, and mitochondrial genomes.[7] Some viruses, e.g. Hepatitis B virus and BYDV, use several overlapping genes in different reading frames.
