@@ -21,6 +21,8 @@ Will add some notes on what I found interesting while discovering the field.
 - C.elegans worm: http://www.wormbook.org/
 - Virii: https://viralzone.expasy.org/
 
+#
+
 # other RNAs
 - Some types of non-coding RNAs (RNAs that do not encode proteins) help regulate the expression of other genes. Such RNAs may be called regulatory RNAs. For example, microRNAs (miRNAs) and small interfering RNAs siRNAs are small regulatory RNA molecules about 22 nucleotides long. They bind to specific mRNA molecules (with partly or fully complementary sequences) and reduce their stability or interfere with their translation, providing a way for the cell to decrease or fine-tune levels of these mRNAs.
 - These are just some examples out of many types of noncoding and regulatory RNAs. Scientists are still discovering new varieties of noncoding RNA.
@@ -35,6 +37,24 @@ https://en.wikipedia.org/wiki/RasiRNA
 - Lien avec la grammaire du vivant "Splice"
 - Les tardigrades ont des spécificités HOX
 https://fr.wikipedia.org/wiki/G%C3%A8ne_Hox
+- https://www.franceinter.fr/emissions/la-tete-au-carre/la-tete-au-carre-19-mai-2011 (10mn40)
+https://fr.wikipedia.org/wiki/Denis_Duboule
+https://genev.unige.ch/fr/research/laboratory/Denis-Duboule
+- En particulier, nous nous intéressons à la fonction possible de LncRNAs produits au sein des clusters Hox et proposés par d’autres laboratoires comme étant essentiels pour la fonction et la régulation des gènes Hox. Dans ce contexte particulier, ces études sont ciblées sur les ébauches des membres et le tractus intestinal.
+- http://acces.ens-lyon.fr/acces/thematiques/evolution/relations-de-parente/comprendre/genes-homeotiques-hlg
+- Les genes HOX sont responsable des rayures des guepes (max 10 genes HOX).
+- 40 genes HOX chez les vertebres.
+- Lien entre penis et doigts chez les genes architectes.
+- Les genes HOX du serpent sont une boucle infinie.
+- Les genes HOX sont coordonés visiblement. Pas de top gene architecte.
+
+# Homeobox
+- https://en.wikipedia.org/wiki/Homeobox
+- Use of https://en.wikipedia.org/wiki/Helix-turn-helix who is universal and binds to DNA.
+
+# Operons (transistor)
+http://www.cours-de-biochimie.fr/operons.php
+
 
 # Luciferase
 https://en.wikipedia.org/wiki/Luciferase
@@ -48,7 +68,7 @@ https://en.wikipedia.org/wiki/Luciferase
 - Translocation
 - Inversion
 - Insertion
-- Ring
+- Ring (boite a musique)
 - Isochromosome
 
 # Acidic / basic blood buffer system

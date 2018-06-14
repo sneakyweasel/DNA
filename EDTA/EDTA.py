@@ -19,7 +19,7 @@ seq2 = record[1].seq
 # print(f"SEQ2: {str(seq2)}")
 # print("------")
 
-alignments = pairwise2.align.globalms(seq1, seq2, 1, -1, -1, 0)
+alignments = pairwise2.align.globalxx(seq1, seq2)
 
 # for alignment in alignments:
 #     print(f"{alignment[2]} {alignment[3]} {alignment[4]}")
