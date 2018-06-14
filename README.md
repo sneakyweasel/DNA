@@ -21,8 +21,6 @@ Will add some notes on what I found interesting while discovering the field.
 - C.elegans worm: http://www.wormbook.org/
 - Virii: https://viralzone.expasy.org/
 
-#
-
 # other RNAs
 - Some types of non-coding RNAs (RNAs that do not encode proteins) help regulate the expression of other genes. Such RNAs may be called regulatory RNAs. For example, microRNAs (miRNAs) and small interfering RNAs siRNAs are small regulatory RNA molecules about 22 nucleotides long. They bind to specific mRNA molecules (with partly or fully complementary sequences) and reduce their stability or interfere with their translation, providing a way for the cell to decrease or fine-tune levels of these mRNAs.
 - These are just some examples out of many types of noncoding and regulatory RNAs. Scientists are still discovering new varieties of noncoding RNA.
