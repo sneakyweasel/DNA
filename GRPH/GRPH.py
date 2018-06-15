@@ -11,6 +11,8 @@ file = open(os.path.join(os.path.dirname(sys.argv[0]), 'rosalind_grph.txt'))
 records = list(SeqIO.parse(file, "fasta"))
 k = 3
 
+print(len(records))
+
 # Longest common subsequence
 def lcs(a, b):
     lengths = [[0 for j in range(len(b)+1)] for i in range(len(a)+1)]
@@ -40,16 +42,11 @@ def lcs(a, b):
 def fix(a, b):
     result = []
     for x in range(0, len(a)):
-        prefix_a = a[:x]
-        suffix_a = a[-x:]
-        prefix_b = b[:x]
-        suffix_b = b[-x:]
-        # print(f"X: {x} - PreA: {prefix_a} | SufB: {suffix_b}")
-        if prefix_a == suffix_b:
-            result.append(prefix_a)
-        if prefix_b == suffix_a:
-            result.append(prefix_b)
-
+        suffix = a[-x:]
+        prefix = b[:x]
+        if prefix == suffix:
+            result.append(prefix)
+            # print(f"X: {x} - PreA: {prefix} | SufB: {suffix}")
     if len(sorted(result)) > 0:
         return sorted(result)[-1]
     else:
@@ -60,9 +57,10 @@ f = Digraph('finite_state_machine', filename='fsm.gv')
 f.attr(rankdir='LR', size='8,5')
 f.attr('node', shape='doublecircle')
 
-for pair in itertools.permutations(records, 2):
+for pair in itertools.product(records, repeat=2):
+    # print(f"{pair[0].id} {pair[1].id}")
     sub = fix(pair[0].seq, pair[1].seq)
-    if len(sub) >= 3:
+    if len(sub) == 3 and (pair[0].seq != pair[1].seq):
         f.edge(pair[0].id, pair[1].id, label=str(sub))
         print(f"{pair[0].id} {pair[1].id}")
 f.view()
