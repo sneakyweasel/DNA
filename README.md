@@ -2,12 +2,14 @@
 Rosalind algorithmic DNA challenges
 My python solutions for the Rosalind challenge, might be interesting for
 some people to see how I solved those, please don't use it to cheat.
-Will add some notes on what I found interesting while discovering the field.
+Will add some notes on what I found interesting while discovering the field through
+the AP Biology program of Khan Academy.
 
 # Required
 - Python 3
 - Biopython library
-- requests library
+- pygraphviz library
+- networkx library
 
 # Links
 - http://www.bioinformatics.babraham.ac.uk/projects/download.html
@@ -30,6 +32,7 @@ https://en.wikipedia.org/wiki/Piwi-interacting_RNA
 https://en.wikipedia.org/wiki/RasiRNA
 
 # HEX|HOX grammaire du vivant
+- Seems like HOX genes are reading parts of lncRNA as "software inputs" to code for parts.
 - Les genes HOX sont liés avec la polydactylie et visiblement les infos de croissance.
 - L'inversion des HOX de la drosophile provoque la poussée de pattes à la place des antennes.
 - Lien avec la grammaire du vivant "Splice"
@@ -53,6 +56,12 @@ https://genev.unige.ch/fr/research/laboratory/Denis-Duboule
 # Operons (transistor)
 http://www.cours-de-biochimie.fr/operons.php
 
+# Enzyme non-competitive inhibition, allosteric site and competitive inhibition
+- Allosteric means remote action
+- They seem to act like timed logic gates OR | AND
+- Allosteric inhibition: if A not B
+- Allosteric activation: if A, B
+- Michaelis-Menten enzymes with a switch state.
 
 # Luciferase
 https://en.wikipedia.org/wiki/Luciferase
@@ -101,3 +110,6 @@ Because transversions require a more drastic change to the base's chemical struc
 
 # Observations
 - Controlled environment in the scientific method destroy the ecosystem complexity.
+
+# Random
+Tale of us, Stephan Bodzin, Hidden Empire, Matador, Guy J, Dale Middleton
