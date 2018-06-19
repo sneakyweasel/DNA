@@ -24,19 +24,15 @@ for line in lines:
         pairs = []
         graphs.append(pairs)
 
-
+print(graphs)
 # Iterate graphs
 i = 0
 for graph in graphs:
+    graph.pop(0)
+
     # Create graph
     G = nx.DiGraph()
     i += 1
-
-    # Unique nodes
-    flat_list = [val for sublist in graph for val in sublist]
-    uniq_node = list(set(flat_list))
-    for node in range(1, max(uniq_node)):
-        G.add_node(node)
 
     # Place edges
     for pair in graph:
@@ -44,19 +40,13 @@ for graph in graphs:
 
     # Compute connected components
     results = []
-    cycle = list(nx.simple_cycles(G))[0]
-    print(cycle)
-    total = 0
-    for x in range(0, len(cycle) - 1):
-        start = cycle[x]
-        end   = cycle[x+1]
-        weight = G[start][end]['weight']
-        # print(f"EDGE: {cycle[x]} {cycle[x+1]}: {weight}")
-        total += weight
-    print(f"Total: {total}")
+    try:
+        cycle = list(nx.simple_cycles(G))
+    except:
+        cycle = [-1]
+    print(f"Cycle {i}: {cycle}")
 
     AG = nx.nx_agraph.to_agraph(G)
-    AG.write("file.dot")
     AG.layout()
     AG.draw(f'file{i}.png')
 

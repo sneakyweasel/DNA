@@ -99,6 +99,8 @@ https://en.wikipedia.org/wiki/Mitochondrion
 # KEGG pathways
 - KEGG pathways are fascinating.
 - Optimal pathways can be found using shortest paths in a DAG with energy weights using bellman_ford_path_length applied to pathways. https://mriduls-networkx.readthedocs.io/en/latest/reference/algorithms/generated/networkx.algorithms.shortest_paths.weighted.bellman_ford_path_length.html#networkx.algorithms.shortest_paths.weighted.bellman_ford_path_length
+- Is linked to the topological sorting in graph theory https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.dag.topological_sort.html?highlight=topological#networkx.algorithms.dag.topological_sort
+
 
 # Point mutations
 Because transversions require a more drastic change to the base's chemical structure, they are less common than transitions. Across the entire genome, the ratio of transitions to transversions is on average about 2. However, in coding regions, this ratio is typically higher (often exceeding 3) because a transition appearing in coding regions happens to be less likely to change the encoded amino acid, particularly when the substituted base is the third member of a codon (feel free to verify this fact using the DNA codon table). Such a substitution, in which the organism's protein makeup is unaffected, is known as a silent substitution.
