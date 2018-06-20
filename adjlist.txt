@@ -1,0 +1,94 @@
+#/Users/philippecochin1/Desktop/Rosalind/GRPH/GRPH.py
+# GMT Wed Jun 20 21:46:13 2018
+# 
+Rosalind_3739 Rosalind_6560
+Rosalind_6560 Rosalind_1249
+Rosalind_1230 Rosalind_8549 Rosalind_4516 Rosalind_7952
+Rosalind_8549 Rosalind_3739 Rosalind_1193
+Rosalind_4516 Rosalind_6871 Rosalind_6119
+Rosalind_7952 Rosalind_9613 Rosalind_3489
+Rosalind_8377 Rosalind_0505 Rosalind_4620
+Rosalind_0505
+Rosalind_4620
+Rosalind_9122 Rosalind_4477
+Rosalind_4477 Rosalind_8912 Rosalind_8416
+Rosalind_9613 Rosalind_7990
+Rosalind_7990 Rosalind_9730 Rosalind_6783 Rosalind_1732 Rosalind_0395
+Rosalind_5169 Rosalind_8191
+Rosalind_8191 Rosalind_8015
+Rosalind_3356 Rosalind_2950 Rosalind_0962
+Rosalind_2950 Rosalind_1395 Rosalind_7962 Rosalind_1856
+Rosalind_0962 Rosalind_5029 Rosalind_7347
+Rosalind_0755 Rosalind_1725
+Rosalind_1725 Rosalind_8616
+Rosalind_1249 Rosalind_9613 Rosalind_3489
+Rosalind_3287 Rosalind_1725
+Rosalind_3489 Rosalind_2996 Rosalind_2638
+Rosalind_2996 Rosalind_4339 Rosalind_9794
+Rosalind_2638
+Rosalind_5484 Rosalind_0755 Rosalind_1750
+Rosalind_1750
+Rosalind_9730 Rosalind_9039 Rosalind_4476
+Rosalind_9039 Rosalind_9613 Rosalind_3489
+Rosalind_4476 Rosalind_4339 Rosalind_9794
+Rosalind_8015
+Rosalind_1245 Rosalind_1230 Rosalind_3287
+Rosalind_8912 Rosalind_7298 Rosalind_1553
+Rosalind_8416 Rosalind_8616
+Rosalind_1395 Rosalind_1944 Rosalind_3417
+Rosalind_7962 Rosalind_3471 Rosalind_3356
+Rosalind_1856
+Rosalind_1402 Rosalind_9039 Rosalind_4476
+Rosalind_7319 Rosalind_5484 Rosalind_2944
+Rosalind_2944
+Rosalind_7298 Rosalind_9122 Rosalind_6171 Rosalind_5498
+Rosalind_1553 Rosalind_7676 Rosalind_5000 Rosalind_8878
+Rosalind_1601 Rosalind_5795 Rosalind_1510
+Rosalind_5795
+Rosalind_1510 Rosalind_3739 Rosalind_1193
+Rosalind_5029 Rosalind_6871 Rosalind_6119
+Rosalind_7347 Rosalind_3317
+Rosalind_8616 Rosalind_9613 Rosalind_3489
+Rosalind_1164 Rosalind_8191
+Rosalind_1622 Rosalind_4006
+Rosalind_4006 Rosalind_4477
+Rosalind_8322 Rosalind_9613 Rosalind_3489
+Rosalind_8878 Rosalind_3739 Rosalind_1193
+Rosalind_1193 Rosalind_9730 Rosalind_6783 Rosalind_1732 Rosalind_0395
+Rosalind_4339 Rosalind_0749
+Rosalind_9794 Rosalind_5029 Rosalind_7347
+Rosalind_6871
+Rosalind_6119 Rosalind_1245 Rosalind_6601 Rosalind_5984
+Rosalind_3317 Rosalind_1230 Rosalind_3287
+Rosalind_0749
+Rosalind_6601 Rosalind_5795 Rosalind_1510
+Rosalind_5984 Rosalind_0758
+Rosalind_1944 Rosalind_2950 Rosalind_0962
+Rosalind_3417
+Rosalind_3471
+Rosalind_8269 Rosalind_1249
+Rosalind_5900 Rosalind_5795 Rosalind_1510
+Rosalind_8185 Rosalind_1164 Rosalind_8273 Rosalind_6186
+Rosalind_8273 Rosalind_7319 Rosalind_5900
+Rosalind_6186
+Rosalind_3818 Rosalind_9122 Rosalind_6171 Rosalind_5498
+Rosalind_6171 Rosalind_3471 Rosalind_3356
+Rosalind_5498 Rosalind_8185 Rosalind_5909
+Rosalind_0758 Rosalind_8912 Rosalind_8416
+Rosalind_4469 Rosalind_1164 Rosalind_8273 Rosalind_6186
+Rosalind_8596 Rosalind_1944 Rosalind_3417
+Rosalind_1732 Rosalind_7990
+Rosalind_6783
+Rosalind_0395 Rosalind_6871 Rosalind_6119
+Rosalind_5909 Rosalind_8185
+Rosalind_7676
+Rosalind_5000
+Rosalind_3128 Rosalind_9122 Rosalind_6171 Rosalind_5498
+Rosalind_8242 Rosalind_1944 Rosalind_3417
+Rosalind_2069 Rosalind_3317
+Rosalind_5646 Rosalind_8412
+Rosalind_8412
+Rosalind_6511 Rosalind_5484 Rosalind_2944
+Rosalind_6498 Rosalind_3317
+Rosalind_9497 Rosalind_8412
+Rosalind_3780 Rosalind_5029 Rosalind_7347
